@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://experiments.wcwgiang.ca/ACC_training/basicTraining_IntOp.html#Activating -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Adaptive Cruise Control</title>
+
+    
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #708090;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #f1f1f1;
+        display: block;
+      }
+
+      .sidenav a:hover {
+        color: #00008B;
+      }
+
+      .main {
+        margin-left: 20%; /* Same as the width of the sidenav */
+        font-size: 25px; /* Increased text to enable scrolling */
+        padding: 0px 15px;
+      }
+
+      @media screen and (max-height: 460px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="sidenav">
+      <h2 style="padding: 0px 8px 0px 16px; color: #f1f1f1;">Table of Contents</h2>
+      <hr>
+      <a href="https://experiments.wcwgiang.ca/ACC_training/index.html">System Functionality</a>
+      <a style="color: #00008B;" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_IntOp.html">Interface and Operation</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_IntOp.html#Interface">ACC Interface</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_IntOp.html#Activating">Turning On and Activating ACC</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_IntOp.html#Adjusting">Adjusting the Vehicle Speed</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_IntOp.html#Operation">During Operation</a>
+        <a style="padding: 10px 0px 0px 32px;" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_IntOp.html#Cancelling">Cancelling and Turning Off ACC</a>
+      <a href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_Lim.html">Limitations</a>
+    </div>
+
+    <div class="main">
+      <header>
+        <nav>
+        </nav>
+        <a href="https://experiments.wcwgiang.ca/ACC_training/index.html">Previous</a>
+        <a style="padding-left: 80%" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_Lim.html">Next</a>
+        <h2>Adaptive Cruise Control</h2>
+        <hr>
+      </header>
+      <main>
+        <section>
+          <h3>Interface and Operation</h3>
+          <hr>
+        </section>
+
+        <section id="Interface">
+          <h4>ACC Interface</h4>
+            <p>The following depicts an overview of the controls and dashboard for the Adaptive Cruise Control system.</p>
+            <img width="70%" src="./Adaptive Cruise Control_files/ACC-interface.png" alt="Image not available.">
+            <p><b>A:</b> Vehicle-to-vehicle distance indicator</p>
+            <p><b>B:</b> ACC "ON" indicator</p>
+            <p><b>C:</b> Set speed</p>
+            <p><b>D:</b> "ON" button</p>
+            <p><b>E:</b> "OFF" button</p>
+            <p><b>F:</b> "RES/ACCEL" button</p>
+            <p><b>G:</b> "CANCEL" button</p>
+            <p><b>H:</b> "SET/COAST" button</p>
+          <br>
+        </section>
+
+
+        <section id="Activating">
+          <h4>Turning On and Activating ACC</h4>
+            <p>To turn on the ACC, press the ON button on the left hand-side of the steering wheel. The green ACC symbol will appear in the dashboard display once the ACC is turned on.</p>
+            <img width="70%" src="./Adaptive Cruise Control_files/instrument-cluster_ACC-On-Not-Set.PNG" alt="Image not available.">
+            <p>To set the cruise speed of your vehicle, accelerate to your desired speed (above 25mph), take your foot off the pedal, and press the SET/COAST button. The SET/COAST button is on the right hand-side of the steering wheel. Once you set the cruising speed, you will be able to see your set speed on the dashboard display. </p>
+            <p>Recall that the ACC will maintain a distance away from a vehicle in front of you based on your set following interval. When you turn on the ACC, your following interval will automatically be set to a "medium"" following distance of about 130ft. The 2 blue bars that appear on the dashboard display once the ACC is turned on indicate your set following distance. Each bar represents a certain distance away from the vehicle ahead of you. </p>
+            <p>Once the cruising speed and following interval are set, the ACC will be active. </p>
+            <img width="70%" src="./Adaptive Cruise Control_files/instrument-cluster_ACC-On-Set_2bar.png" alt="Image not available.">
+            <p style="background-color: #DCDCDC"> <b> NOTE:</b> Many ACC systems allow for various following intervals. However, in our experiment there will only be one following interval option (medium distance). Therefore, you will not be required to select a following interval, and it will be selected for you automatically when you turn on the ACC.</p>
+            <p>If a vehicle is detected in front of you, a white vehicle icon will appear on the dashboard.</p>
+            <img width="70%" src="./Adaptive Cruise Control_files/instrument-cluster_ACC-On-Set-Following-Speed-Set_2bar.png" alt="Image not available.">
+            <br>
+        </section>
+
+        <section id="Adjusting">
+          <h4>Adjusting the Vehicle Speed</h4>
+            <p>To adjust your set cruising speed, press the RES/ACCEL or SET/COAST button. The RES/ACCEL button increases your speed. The SET/COAST button decreases your speed. Each time you press the button, your vehicle speeds up or slows down by about 1 mph.</p>
+            <br>
+        </section>
+
+        <section id="Operation">
+          <h4>During Operation</h4>
+            <p>If a vehicle is detected in front of you when ACC is active, the system maintains, accelerates, or decelerates your vehicle’s speed to keep the set following interval from the vehicle in front of you.</p>
+            <p>You can temporarily speed up by pressing the gas pedal. While you press the pedal, ACC will stay on unless you cancel it. When you release the pedal, ACC will resume your set speed or a sufficient speed to maintain your set following interval. </p>
+            <br>
+        </section>
+
+        <section id="Cancelling">
+          <h4>Cancelling and Turning Off ACC</h4>
+            <p>To deactivate ACC, press the CANCEL button or press down on the brake pedal. ACC will remain on but not active during this time. This means that ACC is not controlling your speed or following distance, but it is ready to be easily reactivated.</p>
+            <p>To reactivate ACC, simply press the RES/ACCEL button. </p>
+            <p>To turn the ACC off, press the “OFF” button the left hand-side of the steering wheel.</p>
+            <img width="70%" src="./Adaptive Cruise Control_files/instrument-cluster_ACC-Off.PNG">
+            <br>
+        </section>
+
+      </main>
+
+    </div>
+    <footer style="font-size: 28px">
+      <a style="margin-left: 20%; padding-left: 15px;" href="https://experiments.wcwgiang.ca/ACC_training/index.html">Previous</a>
+      <a style="padding-left: 60%" href="https://experiments.wcwgiang.ca/ACC_training/basicTraining_Lim.html">Next</a>
+    </footer>
+  
+
+</body></html>
